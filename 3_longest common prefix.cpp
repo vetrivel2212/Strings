@@ -10,6 +10,15 @@
 //                 // If index out of bounds or char mismatch
 //                 if (i >= strs[j].size() || strs[j][i] != c)
 //                     return strs[0].substr(0, i);
+
+//             }
+//         }
+
+//         return strs[0]; // all characters matched
+//     }
+// };
+
+
 string longestCommonPrefix(vector<string>& strs) {
     if (strs.empty()) return "";
 
@@ -25,9 +34,3 @@ string longestCommonPrefix(vector<string>& strs) {
     return first.substr(0, i);
 }
 
-//             }
-//         }
-
-//         return strs[0]; // all characters matched
-//     }
-// };
