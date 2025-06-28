@@ -1,3 +1,4 @@
+//rabin karp
 class Solution {
 public:
    void computeLPS(string pattern, vector<int> &lps, int m) {
