@@ -1,3 +1,8 @@
+// You are given two version numbers: version1 and version2, both are strings.
+
+// Each version number consists of one or more revision levels separated by a dot (.).
+// Each revision level is a non-negative integer (may contain leading zeros).
+
 class Solution {
 public:
     int compareVersion(string version1, string version2) {
