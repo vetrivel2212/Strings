@@ -1,4 +1,6 @@
 //rabin karp
+// a is a substr of b . tell how times that a should appear in a string so that , that string contains b
+
 class Solution {
 public:
    void computeLPS(string pattern, vector<int> &lps, int m) {
